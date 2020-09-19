@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Curso Starter JS" src="https://raw.githubusercontent.com/lurafael/starter-javascript-rocketseat/335d2b52f54109736e95226e949d6877e697f742/images/logo-starter.svg" width="400px" />
+    <img alt="Curso Starter JS" src="https://raw.githubusercontent.com/lurafael/starter-javascript-rocketseat/335d2b52f54109736e95226e949d6877e697f742/images/logo-starter.svg" width="400px" cursor="auto" />
 </h1>
 
 <h3 align="center">
@@ -22,8 +22,9 @@
 
 # JavaScript
 
-1. Desafio 1 - Introdução JavaScript
-    - [ ] 1.1 - Clique aqui para ver a resolução :heavy_check_mark:
+### 1. Desafio 1 - Introdução JavaScript
+    - [x] 1.1 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-introducao-javascript/01mostraEndereco.js) :heavy_check_mark:
+    
         ```
         Crie uma função que dado o objeto a seguir:
     
@@ -40,8 +41,8 @@
         O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
         nº 1293. 
         ```
-        <br>
-     - [ ] 1.2 - Clique aqui para ver a resolução :heavy_check_mark:
+    <br>
+    - [x] 1.2 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-introducao-javascript/02numerosPares.js) :heavy_check_mark:
     
         ```
         Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
@@ -52,8 +53,8 @@
             
             pares(32, 321);
         ```
-        <br>
-      - [ ] 1.3 - Clique aqui para ver a resolução :heavy_check_mark:
+    <br>
+    - [x] 1.3 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-introducao-javascript/03habilidades.js) :heavy_check_mark:
     
         ```
         Escreva uma função que verifique se o vetor de habilidades passado possui a habilidade "Javascript"
@@ -67,8 +68,8 @@
             temHabilidade(skills); // true ou false
 
         ```
-        <br>
-      - [ ] 1.4 - Clique aqui para ver a resolução :heavy_check_mark:
+    <br>
+    - [x] 1.4 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-introducao-javascript/04anosEstudos.js) :heavy_check_mark:
     
         ```
         Escreva uma função que dado um total de anos de estudo retorna o quão experiente o usuário é:
@@ -85,8 +86,8 @@
             // De 3-6 anos: Avançado
             // De 7 acima: Jedi Master
         ```
-        <br>
-      - [ ] 1.5 - Clique aqui para ver a resolução :heavy_check_mark:
+    <br>
+    - [x] 1.5 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-introducao-javascript/05exibirHabilidades.js) :heavy_check_mark:
     
         ```
         Dado o seguinte vetor de objetos:
@@ -107,8 +108,78 @@
         O Gabriel possui as habilidades: VueJS, Ruby on Rails, Elixir
         ```
         
-- [ ] 2. Desafio 2 - Manipulando a DOM
-- [ ] 3. Desafio 3 - App de To-dos
+### 2. Desafio 2 - Manipulando a DOM
+    
+    - [x] 2.1 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/02-manipulando-a-dom/desafio2-1/2-1quadrado.js) :heavy_check_mark:    
+
+        ```
+        Crie um botão que ao ser clicado cria um novo elemento em tela com a forma de um quadrado
+        vermelho com 100px de altura e largura. Sempre que o botão for clicado um novo quadrado deve
+        aparecer na tela.
+        ```
+    <br>
+    - [x] 2.2 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/02-manipulando-a-dom/desafio2-2/2-2colorir.js) :heavy_check_mark:
+    
+        ```
+        Utilizando o resultado do primeiro desafio, toda vez que o usuário passar o mouse por cima de
+        algum quadrado troque sua cor para uma cor aleatória gerada pela função abaixo:
+
+            function getRandomColor() {
+            var letters = "0123456789ABCDEF";
+            var color = "#";
+            for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+            }
+
+            var newColor = getRandomColor(); // #E943F0
+
+        ```
+    <br>
+    - [x] 2.3 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/02-manipulando-a-dom/desafio2-3/2-3listaNomes.js) :heavy_check_mark:
+
+        ```
+        Utilizando o resultado do primeiro desafio, toda vez que o usuário passar o mouse por cima de
+        algum quadrado troque sua cor para uma cor aleatória gerada pela função abaixo:
+
+            function getRandomColor() {
+            var letters = "0123456789ABCDEF";
+            var color = "#";
+            for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+            }
+
+            var newColor = getRandomColor(); // #E943F0
+
+        ```
+    <br>
+    - [x] 2.4 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/02-manipulando-a-dom/desafio2-4/2-4manipulandoNomes.js) :heavy_check_mark:
+
+        ```
+        Utilizando o resultado do primeiro desafio, toda vez que o usuário passar o mouse por cima de
+        algum quadrado troque sua cor para uma cor aleatória gerada pela função abaixo:
+
+            function getRandomColor() {
+            var letters = "0123456789ABCDEF";
+            var color = "#";
+            for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+            }
+
+            var newColor = getRandomColor(); // #E943F0
+
+        ```
+    <br>
+
+### 3. Desafio 3 - App de To-dos
+
+    - [x] 2.3 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/03-app-todos) :heavy_check_mark:
+
 - [ ] 4. Desafio 4 - JS assíncrono
 
 ## :memo: Licença
