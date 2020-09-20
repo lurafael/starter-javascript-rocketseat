@@ -137,12 +137,13 @@
         algum quadrado troque sua cor para uma cor aleatória gerada pela função abaixo:
 
             function getRandomColor() {
-            var letters = "0123456789ABCDEF";
-            var color = "#";
-            for (var i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-            }
-            return color;
+                var letters = "0123456789ABCDEF";
+                var color = "#";
+                
+                for (var i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
             }
 
             var newColor = getRandomColor(); // #E943F0
@@ -154,19 +155,14 @@
 - [x] 2.3 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/02-manipulando-a-dom/desafio2-3/2-3listaNomes.js) :heavy_check_mark:
 
 ```
-        Utilizando o resultado do primeiro desafio, toda vez que o usuário passar o mouse por cima de
-        algum quadrado troque sua cor para uma cor aleatória gerada pela função abaixo:
+        A partir do seguinte vetor:
+                var nomes = ["Diego", "Gabriel", "Lucas"];
 
-            function getRandomColor() {
-            var letters = "0123456789ABCDEF";
-            var color = "#";
-            for (var i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-            }
-            return color;
-            }
-
-            var newColor = getRandomColor(); // #E943F0
+        Preencha uma lista (<ul>) no HTML com os itens da seguinte forma:
+        
+        ● Diego
+        ● Gabriel
+        ● Lucas
 
 ```
         
@@ -175,19 +171,14 @@
 - [x] 2.4 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/02-manipulando-a-dom/desafio2-4/2-4manipulandoNomes.js) :heavy_check_mark:
 
 ```
-        Utilizando o resultado do primeiro desafio, toda vez que o usuário passar o mouse por cima de
-        algum quadrado troque sua cor para uma cor aleatória gerada pela função abaixo:
-
-            function getRandomColor() {
-            var letters = "0123456789ABCDEF";
-            var color = "#";
-            for (var i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-            }
-            return color;
-            }
-
-            var newColor = getRandomColor(); // #E943F0
+        Seguindo o resultado do exercício anterior adicione um input em tela e um botão como a seguir:
+                
+                <input type="text" name="nome">
+                <button onClick="adicionar()">Adicionar</button>
+        
+        Ao clicar no botão, a função adicionar() deve ser disparada adicionando um novo item a lista de
+        nomes baseado no nome preenchido no input e renderizando o novo item em tela juntos aos
+        demais itens anteriores. Além disso, o conteúdo do input deve ser apagado após o clique.
 
 ```
 
