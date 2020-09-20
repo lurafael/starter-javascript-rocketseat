@@ -194,9 +194,10 @@
 <br>
     
 ## 3. Desafio 3 - App de To-dos 
-[Clique para ver os arquivos do projeto](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/03-app-todos) :heavy_check_mark:
 
 <br>
+
+[Clique para ver os arquivos do projeto](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/03-app-todos) :heavy_check_mark:
 
 ![Foto do app de To-dos](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/images/foto-app-to-dos.png)
 
