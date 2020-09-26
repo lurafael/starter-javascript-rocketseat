@@ -22,7 +22,7 @@
 
 ## 1. Desafio 1 - Introdução JavaScript
 
-- [x] 1.1 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/introducao-javascript/01mostraEndereco.js) :heavy_check_mark:
+- [x] 1.1 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-introducao-javascript/01mostraEndereco.js) :heavy_check_mark:
     
 ```
         Crie uma função que dado o objeto a seguir:
