@@ -188,6 +188,8 @@
 
 <br>
 
+[Acessar site (Somente Desktop)](https://todolist-lurafael.netlify.app/) :heavy_check_mark:
+
 [Clique para ver os arquivos do projeto](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/03-app-todos) :heavy_check_mark:
 
 ![Foto do app de To-dos](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/images/foto-app.png)
